@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#80ffffff"
+        android:layout_x="61dp"
+        android:layout_y="127dp"
+        app:srcCompat="@mipmap/capp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="229dp"
+        android:background="#80ffffff"
+        android:layout_y="266dp"
+        app:srcCompat="@mipmap/coldcoffee"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:background="#80ffffff"
+        android:layout_height="wrap_content"
+        android:layout_x="59dp"
+        android:layout_y="270dp"
+        app:srcCompat="@mipmap/expresso"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="228dp"
+        android:layout_y="130dp"
+        android:background="#80ffffff"
+        app:srcCompat="@mipmap/latte"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="219dp"
+        android:fontFamily="@font/cap"
+        android:text="Cappucino"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_x="228dp"
+        android:layout_y="212dp"
+        android:fontFamily="@font/coffee"
+        android:gravity="center"
+        android:text="Latte"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="366dp"
+        android:text="Expresso"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:fontFamily="@font/exp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_x="217dp"
+        android:layout_y="365dp"
+        android:fontFamily="@font/blend"
+        android:text="Cold Coffee"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_x="118dp"
+        android:layout_y="34dp"
+        android:fontFamily="@font/blend"
+        android:text="COFFEE"
+        android:textAppearance="@android:style/TextAppearance.Widget.IconMenu.Item"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_x="107dp"
+        android:layout_y="483dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="BACK TO HOMEPAGE"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+</AbsoluteLayout>

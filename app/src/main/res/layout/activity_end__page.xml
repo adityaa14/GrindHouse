@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_x="15dp"
+        android:layout_y="186dp"
+        android:text="Thank You for placing an order with us!"
+         />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="117dp"
+        android:layout_y="257dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Amount Payable:- "
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="311dp"
+        android:ems="10"
+        android:clickable="false"
+        android:editable="false"
+        android:focusable="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="316dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Rs."
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="157dp"
+        android:layout_height="106dp"
+        android:layout_x="25dp"
+        android:layout_y="369dp"
+        android:text="Place another order"
+
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="157dp"
+        android:layout_height="106dp"
+        android:layout_x="197dp"
+        android:layout_y="369dp"
+        android:text="Pay now"
+
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_x="197dp"
+        android:layout_y="67dp"
+
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:text="Help and support"
+
+        android:textSize="15sp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="162dp"
+        android:layout_height="141dp"
+        android:layout_x="3dp"
+        android:layout_y="10dp"
+        app:srcCompat="@mipmap/del"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_x="122dp"
+        android:layout_y="492dp"
+
+        android:text="Cancel Order"
+
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+</AbsoluteLayout>
